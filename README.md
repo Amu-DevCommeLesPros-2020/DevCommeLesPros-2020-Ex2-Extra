@@ -26,6 +26,9 @@ Coup de chance ! Vous avez intercepté un message clair et son équivalent chiff
 Avec ces deux messages en main, vous pouvez procéder à une [attaque à texte clair connu](https://fr.wikipedia.org/wiki/Attaque_%C3%A0_texte_clair_connu) 
 pour récupérer la clé utilisée lors du chiffrement et pouvoir déchiffrer d'autres messages chiffrés avec la même clé.
 
+Attention : analyser les messages à la main pour en récupérer la clé est faisable mais ce n'est le but de l'exercice.
+Il faut que ce soit votre programme qui puisse révéler la clé.
+
 1. Implémenter les fonctions `analyse_Vigenere_flux_texte` et `dechiffre_Vigenere_flux_texte`.
 1. Analysez les messages `message_Vigenere_clair_connu.txt` et `message_Vigenere_chiffre_connu.txt` pour récupérer la clé de chiffrement. La clé est un mot français sans accent.
     - `> ./build/analyse -V -l message_Vigenere_clair_connu.txt -h message_Vigenere_chiffre_connu.txt`
@@ -45,6 +48,9 @@ Programme de (dé)chiffrement par Vigenère en ligne : https://planetcalc.com/24
 Coup de chance ! Vous avez intercepté un message clair et son équivalent chiffré par la méthode [Playfair](https://fr.wikipedia.org/wiki/Chiffre_de_Playfair).
 Avec ces deux messages en main, vous pouvez procéder à une [attaque à texte clair connu](https://fr.wikipedia.org/wiki/Attaque_%C3%A0_texte_clair_connu) 
 pour récupérer la clé utilisée lors du chiffrement et pouvoir déchiffrer d'autres messages chiffrés avec la même clé.
+
+Attention : analyser les messages à la main pour en récupérer la clé est faisable mais ce n'est le but de l'exercice.
+Il faut que ce soit votre programme qui puisse révéler la clé.
 
 1. Implémenter les fonctions `analyse_Playfair_flux_texte` et `dechiffre_Playfair_flux_texte`.
 1. Analysez les messages `message_Playfair_clair_connu.txt` et `message_Playfair_chiffre_connu.txt` pour récupérer la clé de chiffrement. La clé est un mot français sans accent.
