@@ -1,7 +1,6 @@
-// Collection de fonctions de chiffrement
+// Collection de fonctions de déchiffrement et d'analyse.
 
 #pragma once
 
-#include "ROT13.h"
-#include "Cesar.h"
+#include "Playfair.h"
 #include "Vigenere.h"
